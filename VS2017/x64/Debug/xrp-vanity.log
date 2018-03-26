@@ -1,0 +1,4 @@
+﻿main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl calculate_range_difficulty(void)" (?calculate_range_difficulty@@YAXXZ)，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "struct sPrefix * __cdecl get_prefix_ranges(int,char const *,struct bignum_ctx *)" (?get_prefix_ranges@@YAPEAUsPrefix@@HPEBDPEAUbignum_ctx@@@Z)，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl vg_output_timing_console(double,double,unsigned __int64)" (?vg_output_timing_console@@YAXNN_K@Z)，该符号在函数 main 中被引用
+G:\project\2018\2\28\xrp-vanity-master\VS2017\x64\Debug\xrp-vanity.exe : fatal error LNK1120: 3 个无法解析的外部命令
