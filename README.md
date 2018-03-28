@@ -1,10 +1,17 @@
 xrp-vanity
+
 To Compile
+
 clang++ -O2 -oxrpvanity -std=c++1y -lssl -lcrypto -lpthread main.cpp prefix.cpp
+
 To use
+
 Arguments
+
 ./xrpvanity <Threads> <Prefix> <Prefix> <Prefix>
+
 Example
+
 To start with 8 threads, searching for prefix rXRP and rWET
 
 ./xrpvanity 8 XRP rWET
